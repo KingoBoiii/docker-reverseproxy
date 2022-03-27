@@ -25,3 +25,4 @@ jobs:
         uses: pennsignals/publish_docker-compose@v0.1.1
         with:
           docker_compose: 'docker-compose.yml'
+          repo_token: "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"

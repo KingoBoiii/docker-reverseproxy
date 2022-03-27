@@ -1,6 +1,7 @@
 services:
     reverseproxy:
-        image: reverseproxy
+        build: .
+        # image: reverseproxy
         ports:
             - 8080:8080
             - 8081:8081
